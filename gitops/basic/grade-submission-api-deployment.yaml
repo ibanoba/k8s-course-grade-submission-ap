@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: grade-submission-api
-        image: ibanoba/tiktaktoe-demo:v1
+        image: tiktaktoe-demo:v1
         # image: rslim087/kubernetes-course-grade-submission-api:stateless
         ports:
           - containerPort: 3000
